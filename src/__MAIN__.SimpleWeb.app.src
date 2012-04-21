@@ -1,0 +1,13 @@
+{application, '__MAIN__.SimpleWeb', [
+    {description, "A simple web framework."},
+    {vsn, "0.1.0"},
+    {modules, []},
+    {registered, ['__MAIN__.SimpleWebSup']},
+    {applications, [
+        kernel
+        ,stdlib
+        ,cowboy
+    ]},
+    {mod, {'__MAIN__.SimpleWeb', []}},
+    {env, []}
+]}.
