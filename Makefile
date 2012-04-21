@@ -1,4 +1,4 @@
-all: app elixir
+all: app
 
 # Recompile only Elixir code and run the app
 run: elixir

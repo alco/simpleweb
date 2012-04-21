@@ -8,7 +8,7 @@ defmodule SimpleWebServer do
 
   def start do
     start_app :cowboy
-    start_app __MODULE__
+    start_app SimpleWeb
   end
 
   def start(_type, _args) do
