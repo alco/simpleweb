@@ -1,4 +1,4 @@
-{application, '__MAIN__.SimpleWebServer', [
+{application, '__MAIN__.SimpleWeb', [
     {description, "A simple web framework."},
     {vsn, "0.1.0"},
     {modules, []},
