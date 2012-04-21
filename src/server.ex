@@ -1,4 +1,4 @@
-defmodule SimpleWeb do
+defmodule SimpleWebServer do
   @behaviour :application
 
   defp start_app(app) do

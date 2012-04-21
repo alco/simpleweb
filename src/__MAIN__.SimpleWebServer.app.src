@@ -1,4 +1,4 @@
-{application, '__MAIN__.SimpleWeb', [
+{application, '__MAIN__.SimpleWebServer', [
     {description, "A simple web framework."},
     {vsn, "0.1.0"},
     {modules, []},
@@ -8,6 +8,6 @@
         ,stdlib
         ,cowboy
     ]},
-    {mod, {'__MAIN__.SimpleWeb', []}},
+    {mod, {'__MAIN__.SimpleWebServer', []}},
     {env, []}
 ]}.
